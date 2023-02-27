@@ -1,0 +1,25 @@
+.form>input {
+    all:  unset;
+    width: 100%;
+    height: 2rem;
+    padding: 4px 2.5px;
+    border-radius: .5rem;
+    background-color: white;
+    margin: 1.5rem 0;
+}
+.form>select {
+    all:  unset;
+    width: 100%;
+    height: 2rem;
+    padding: 4px 2.5px;
+    border-radius: .5rem;
+    background-color: white;
+    margin: 1.5rem 0;
+}
+.btn {
+    all: unset;
+    padding: 6px 1.2px;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0,0.2);
+}

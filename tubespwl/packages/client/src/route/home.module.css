@@ -1,0 +1,7 @@
+.btn {
+    all : unset;
+    padding: .5rem 1rem;
+    background-color: brown;
+    border-radius: .5rem;
+    color: whitesmoke;
+}

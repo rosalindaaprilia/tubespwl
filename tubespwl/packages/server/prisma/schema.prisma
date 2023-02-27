@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model pendaftaran {
+  id_user            Int        @id @default(autoincrement())
+  nama               String     @db.VarChar(50)
+  no_hp              String     @db.VarChar(15)
+  email              String     @unique @db.VarChar(50)
+  jenjang_pendidikan Pendidikan
+  program_bimbel     String     @db.VarChar(50)
+}
+
+enum Pendidikan {
+  TK
+  SD
+  SMP
+  SMA
+  SMK
+  S1
+  S2
+  S3
+}
